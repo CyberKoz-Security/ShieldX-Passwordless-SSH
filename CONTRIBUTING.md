@@ -19,6 +19,18 @@ Thank you for improving ShieldX Passwordless SSH. Contributions should remain cl
 - Never recommend copying or displaying a private key.
 - Update related navigation and troubleshooting sections when behavior changes.
 
+## Automated validation
+
+Run the repository validator before requesting review.
+
+**Kali client — run from a repository checkout:**
+
+```console
+python3 scripts/validate_repository.py
+```
+
+The validator checks Markdown links and fences, command-block structure, machine labels, placeholder vocabulary, private-key filenames, common credential markers, literal IP addresses, and README structure. Report only the result you actually observed.
+
 ## Review checklist
 
 - [ ] The change is documentation-only and within project scope.
@@ -28,6 +40,7 @@ Thank you for improving ShieldX Passwordless SSH. Contributions should remain cl
 - [ ] Examples contain placeholders and no sensitive values.
 - [ ] Security claims are precise and do not claim unperformed work.
 - [ ] Evidence is authentic, sanitized, and clearly distinguished from placeholders.
+- [ ] The automated validator passed.
 - [ ] The resulting diff has been reviewed before submission.
 
 ## Pull request content
