@@ -23,7 +23,7 @@ Thank you for improving ShieldX Passwordless SSH. Contributions should remain cl
 
 Run the repository validator before requesting review.
 
-**Kali client or Ubuntu server — run from a repository checkout:**
+**Kali client — run from a repository checkout:**
 
 ```console
 python3 scripts/validate_repository.py
