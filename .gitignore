@@ -1,0 +1,35 @@
+# SSH private keys and common key exports
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+shieldx_ed25519
+shieldx_ed25519.pub
+*.pem
+*.ppk
+*.key
+
+# Secret and local environment files
+.env
+.env.*
+!.env.example
+*.secret
+*.secrets
+
+# Captured evidence; retain only the guidance file
+evidence/*
+!evidence/README.md
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
