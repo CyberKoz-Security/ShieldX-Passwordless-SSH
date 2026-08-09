@@ -24,6 +24,7 @@ These rules apply to the entire repository and to humans, automation, and AI age
 - Verify commands for correct machine context and do not present example output as observed output.
 - Mark evidence locations as placeholders until a human supplies sanitized, authentic artifacts.
 - Require human review for changes to authentication, authorization, firewall, or SSH daemon guidance.
+- Run `python3 scripts/validate_repository.py` and report the actual result before integration.
 - Do not claim validation passed unless the corresponding check was actually run.
 - Summarize changed files and provide the diff for human review before integration.
 
