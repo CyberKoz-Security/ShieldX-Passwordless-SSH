@@ -12,6 +12,7 @@ Describe the documentation change and why it is needed.
 
 List only commands and checks that were actually run. Do not paste fabricated output.
 
+- [ ] `python3 scripts/validate_repository.py`
 - [ ] Markdown structure was checked.
 - [ ] Repository-relative links were checked.
 - [ ] Commands are each on one physical line and identify the Kali client or Ubuntu server.
